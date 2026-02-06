@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoVoya</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <h1 class="logo">GoVoya <i class="fa-solid fa-plane"></i></h1>
+      <div class="hamburger" id="hamburger">
+        ☰
+      </div>
+      <div class="navbar" id="navMenu">
+        <ul>
+          <li> <a href="#home">Home</a></li>
+          <li> <a href="#features">Features</a></li>
+          <li> <a href="#destinations">Destinations</a></li>
+          <li> <a href="#contact">Contact</a></li>
+        </ul>
+
+
+        </a>
+      </div>
+
+      <div class="btn">
+        <button type="button" class="btn1">Login</button>
+        <button type="button" class="btn2">Sign up</button>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="hero-content">
+        <h2><span>GoVoya</span> - Where every journey feels personal.</h2>
+        <p>Discover thoughtfully designed trips that match your style and your budget.</p>
+        <button class="hero-btn" type="button">Start your journey</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/hero-bg.jpg" alt="background image">
+      </div>
+
+      <div>
+        <ul class="hero-features">
+          <li>✔ Personalized itineraries</li>
+          <li>✔ Budget-friendly planning</li>
+          <li>✔ 24/7 travel support</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="features">
+      <div class="aboutdiv">
+        <div class="mission">
+          <h3>Personalized Travel Planning</h3>
+          <p>Our mission is to make travel simple, personal, and accessible—helping every traveler create meaningful
+            journeys without stress or overspending.</p>
+          <img src="images/aboutimage.jpg" alt="illustration">
+        </div>
+
+        <div class="feature-card">
+          <div class="card">
+            <span><i class="fa-duotone fa-solid fa-wallet"></i></span>
+            <p>Trips designed around your preferences, budget, and travel style.</p>
+          </div>
+          <div class="card">
+            <span><i class="fa-solid fa-mobile"></i></span>
+            <p>Plan, compare, and book everything in one place.
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="dest">
+        <div class="destination1">
+          <h3>Switzerland</h3>
+          <p class="content">Join us on an adventure through beautiful Switzerland, a country of towering white peaks,
+            rolling green
+            hills, and sparkling blue lakes. From historic cities such as Locarno with its charming piazzas and medieval
+            Castello Visconteo castle to the picturesque towns and villages such as Lauterbrunnen, framed by massive
+            cliffs, waterfalls, and mountains it makes you feel as though you are in a scene from The Sound of Music.
+          </p>
+
+          <p class="content">Our tours travel all over Switzerland, carefully created to show some of the country’s most
+            iconic
+            attractions.</p>
+
+          <div class="card">
+            <img src="images/destination1.jpg" alt="Swiss Alps">
+            <div class="container">
+              <h4>Lake Como & the Swiss Alps</h4>
+              <p>6 Days</p>
+              <p>$2,674</p>
+              <a href="#" class="view-tour-btn">View Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination2">
+          <h3>Finland</h3>
+          <p class="content">Meet husky guide dogs in the wilderness and join them on a thrilling ride. Drift off with a
+            view of stars and
+            Northern Lights beneath the dome of a glass igloo. Spend days cozied up in a sauna above the Arctic Circle.
+            It’s hard to go wrong on a tour of this wintery, wonderful Nordic country.</p>
+
+          <p class="content">Exploring Finland through GoVoya tour operator offers you the chance to see the key sights
+            without getting
+            overwhelmed by planning or worrying about the details. Instead, you’ll experience seamlessly thought out and
+            executed adventures and accommodations chosen by the people who know the area best.</p>
+
+          <div class="card">
+            <img src="images/destination2.jpg" alt="Northern Lights">
+            <div class="container">
+              <h4>Northern Lights in Finland</h4>
+              <p>5 Days</p>
+              <p>$3,132</p>
+              <a href="#" class="view-tour-btn">View Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination3">
+          <h3>Maldives</h3>
+          <p class="content">
+            Escape to the Maldives, a tropical paradise of powder-soft white sands, crystal-clear turquoise waters,
+            and vibrant coral reefs teeming with marine life. Scattered across the Indian Ocean, its idyllic islands
+            offer a perfect blend of serenity and natural beauty.
+          </p>
+          <p class="content">
+            Our tours in the Maldives are thoughtfully designed to showcase the very best of this island nation,
+            combining luxury, comfort, and authentic island experiences. From handpicked resorts and guided water
+            adventures to seamless transfers and personalized service, we ensure every detail is taken care of.
+          </p>
+
+
+          <div class="card">
+            <img src="images/destination3.jpg" alt="Water villas">
+            <div class="container">
+              <h4>South Male atoll, water villas</h4>
+              <p>6 Days</p>
+              <p>$1,256</p>
+              <a href="#" class="view-tour-btn">View Tour</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="formcontainer">
+        <h2>Contact Form</h2>
+
+        <form class="form-field">
+          <label for="name" class="label-field">Name:</label>
+          <input type="text" name="sname" id="sname" placeholder="Enter your name" required class="input-field">
+          <br><br>
+          <label for="email" class="label-field">Email:</label>
+          <input type="email" name="semail" id="email" placeholder="Enter your email" required class="input-field">
+          <br><br>
+          <label for="msg" class="label-field">Message:</label>
+          <input type="text" name="smsg" id="msg" placeholder="Enter your message here" class="input-field">
+          <br><br>
+          <button type="submit">Sign in</button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <h3>GoVoya</h3>
+        <p>
+          Where every journey feels personal.
+          Thoughtfully designed trips tailored to your style and budget.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: support@govoya.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Available 24/7</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 GoVoya. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("navMenu");
+
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+
+        hamburger.classList.toggle("hidden");
+      });
+    });
+  </script>
+
+</body>
+
+</html>
